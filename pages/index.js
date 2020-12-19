@@ -159,14 +159,6 @@ const App = () => {
             </a>
           </Link>
           <Box m={2} />
-          <Link href="../profile/">
-            <b>
-              <Typography variant="h4" className={classes.title}>
-                <PersonIcon />
-                Profile
-              </Typography>
-            </b>
-          </Link>
         </Toolbar>
       </AppBar>
 

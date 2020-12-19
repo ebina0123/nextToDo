@@ -35,11 +35,6 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
                 label="ToDo List"
                 icon={<DoneAllIcon />}
             />
-            <BottomNavigationAction
-                Link href='/profile'
-                label="Profile"
-                icon={<PersonIcon />}
-            />
         </BottomNavigation>
     );
 };
